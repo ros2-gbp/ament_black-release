@@ -1,0 +1,12 @@
+Source: ros-iron-ament-cmake-black
+Section: misc
+Priority: optional
+Maintainer: Tyler Weaver <tylerjw@gamil.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake-copyright <!nocheck>, ros-iron-ament-cmake-core, ros-iron-ament-cmake-lint-cmake <!nocheck>, ros-iron-ament-cmake-test, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-ament-cmake-black
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ament-black, ros-iron-ament-cmake-test, ros-iron-ros-workspace
+Description: The CMake API for ament_black to lint Python code using black.
