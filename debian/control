@@ -1,0 +1,12 @@
+Source: ros-humble-ament-cmake-black
+Section: misc
+Priority: optional
+Maintainer: Tyler Weaver <tylerjw@gamil.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake-copyright <!nocheck>, ros-humble-ament-cmake-core, ros-humble-ament-cmake-lint-cmake <!nocheck>, ros-humble-ament-cmake-test, ros-humble-ament-cmake-xmllint <!nocheck>, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-ament-cmake-black
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ament-black, ros-humble-ament-cmake-test, ros-humble-ros-workspace
+Description: The CMake API for ament_black to lint Python code using black.
