@@ -2,6 +2,12 @@
 Changelog for package ament_black
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.4 (2024-01-19)
+------------------
+* Nacho/fix rolling build (`#9 <https://github.com/botsandus/ament_black/issues/9>`_)
+* Nacho/fix xunit report (`#8 <https://github.com/botsandus/ament_black/issues/8>`_)
+* Contributors: Ignacio Vizzo
+
 0.2.3 (2023-10-13)
 ------------------
 * Add python3-uvloop as dependency https://github.com/ros/rosdistro/pull/38754
