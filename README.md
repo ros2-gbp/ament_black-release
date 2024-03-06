@@ -1,3 +1,28 @@
+## ament_black (rolling) - 0.2.4-2
+
+The packages in the `ament_black` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --track rolling --rosdistro rolling ament_black` on `Wed, 06 Mar 2024 20:39:47 -0000`
+
+These packages were released:
+- `ament_black`
+- `ament_cmake_black`
+
+Version of package(s) in repository `ament_black`:
+
+- upstream repository: https://github.com/botsandus/ament_black.git
+- release repository: https://github.com/ros2-gbp/ament_black-release.git
+- rosdistro version: `null`
+- old version: `0.2.4-1`
+- new version: `0.2.4-2`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## ament_black (rolling) - 0.2.4-1
 
 The packages in the `ament_black` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --new-track --rosdistro rolling --track rolling ament_black` on `Fri, 19 Jan 2024 16:46:24 -0000`
