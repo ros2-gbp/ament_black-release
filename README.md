@@ -1,3 +1,28 @@
+## ament_black (jazzy) - 0.2.5-1
+
+The packages in the `ament_black` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release ament_black --rosdistro jazzy -e` on `Mon, 29 Jul 2024 11:14:55 -0000`
+
+These packages were released:
+- `ament_black`
+- `ament_cmake_black`
+
+Version of package(s) in repository `ament_black`:
+
+- upstream repository: https://github.com/botsandus/ament_black.git
+- release repository: https://github.com/ros2-gbp/ament_black-release.git
+- rosdistro version: `0.2.4-1`
+- old version: `0.2.4-1`
+- new version: `0.2.5-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.24.0`
+- rosdistro version: `0.9.1`
+- vcstools version: `0.1.42`
+
+
 ## ament_black (iron) - 0.2.5-1
 
 The packages in the `ament_black` repository were released into the `iron` distro by running `/usr/bin/bloom-release ament_black --rosdistro iron -e` on `Mon, 29 Jul 2024 11:08:27 -0000`
