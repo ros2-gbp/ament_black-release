@@ -5,7 +5,7 @@ package_name = 'ament_black'
 
 setup(
     name=package_name,
-    version='0.2.5',
+    version='0.2.6',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/' + package_name, ['package.xml']),
@@ -13,6 +13,7 @@ setup(
     ],
     install_requires=[
         'black==21.12b0',
+        'packaging>=20.3',
         'setuptools>=56',
         'unidiff>=0.5',
         'uvloop==0.17.0',
