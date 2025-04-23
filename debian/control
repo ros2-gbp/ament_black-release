@@ -1,0 +1,12 @@
+Source: ros-kilted-ament-cmake-black
+Section: misc
+Priority: optional
+Maintainer: Tyler Weaver <tylerjw@gamil.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake-copyright <!nocheck>, ros-kilted-ament-cmake-core, ros-kilted-ament-cmake-lint-cmake <!nocheck>, ros-kilted-ament-cmake-test, ros-kilted-ament-cmake-xmllint <!nocheck>, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-ament-cmake-black
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-ament-black, ros-kilted-ament-cmake-test, ros-kilted-ros-workspace
+Description: The CMake API for ament_black to lint Python code using black.
