@@ -1,0 +1,12 @@
+Source: ros-rolling-ament-cmake-black
+Section: misc
+Priority: optional
+Maintainer: "Guillaume Doisy" <guillaume@dexory.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake-copyright <!nocheck>, ros-rolling-ament-cmake-core, ros-rolling-ament-cmake-lint-cmake <!nocheck>, ros-rolling-ament-cmake-test, ros-rolling-ament-cmake-xmllint <!nocheck>, ros-rolling-ros-workspace
+Homepage: https://index.ros.org/p/ament_cmake_black/#rolling
+Standards-Version: 3.9.2
+
+Package: ros-rolling-ament-cmake-black
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-ament-black, ros-rolling-ament-cmake-test, ros-rolling-ros-workspace
+Description: The CMake API for ament_black to lint Python code using black.
